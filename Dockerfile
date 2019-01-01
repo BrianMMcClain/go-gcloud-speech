@@ -1,6 +1,6 @@
 # This is poorly written =\
 
-# docker run -e GOOGLE_APPLICATION_CREDENTIALS=/certs/key.json -v /PATH/TO/key.json:/certs -p 8080:8080  go-gcloud-speech
+# docker run -e GOOGLE_APPLICATION_CREDENTIALS=/certs/key.json -v /PATH/TO/key.json:/certs -p 8080:8080  brianmmcclain/go-gcloud-speech
 
 # curl -XPOST -H "Content-Type:audio/x-flac" localhost:8080 --data-binary '@recording.flac'
 
