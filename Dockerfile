@@ -12,7 +12,7 @@ RUN apk --update --no-cache add \
 WORKDIR /go/src/app
 COPY . .
 
-RUN go get -d -v ./... && \
+RUN go get && \
     go build
 
 
